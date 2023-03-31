@@ -16,6 +16,7 @@ import java.io.InputStream;
 import java.io.Writer;
 import java.nio.charset.StandardCharsets;
 
+//HTTP 요청메시지가 단순 텍스트일때
 @Slf4j
 @Controller
 public class RequestBodyStringController {
